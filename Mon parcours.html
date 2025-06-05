@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="shortcut icon" href="UBS.png" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxence Bourbigou</title>
+    <link rel="stylesheet" href="Mon parcours.css">
+    <script src="scriptMP.js" defer></script>
+
+
+</head>
+
+<body>
+
+    <div class="container-parcours">
+        <h1>Mon Parcours</h1>
+
+        <button class="button-parcours" onclick="afficherParcours('lycee')">Lycée</button>
+        <button class="button-parcours" onclick="afficherParcours('iut')">IUT</button>
+        <button class="button-parcours" onclick="afficherParcours('ecole')">École d'ingénieur</button>
+        <a href="CV.png" class="button-parcours" target="_blank"> CV </a>
+
+
+        <div id="description-container" class="description" style="display: none;">
+            <img id="parcours-image" src="" alt="">
+            <p id="parcours-text"></p>
+        </div>
+    </div>
+    <!-- Bouton retour -->
+    <div class="retour-container">
+    <a class="button-parcours btn-retour" href="Accueil.html">
+        Retour à l'accueil
+    </a>
+</div>
+
+</body>
+</html>

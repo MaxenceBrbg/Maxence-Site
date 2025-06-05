@@ -1,0 +1,370 @@
+
+.containerceremony {
+    width: 70%; /* largeur de la boîte */
+    margin: auto; /* centrer le contenu horizontalement */
+}
+.containerbutton {
+    width: 90%; /* largeur de la boîte */
+    margin: auto; /* centrer le contenu horizontalement */
+}
+
+.button-ceremony {
+  background-color: #4CAF50; /* couleur de fond du bouton */
+  color: white; /* couleur du texte */
+  border: 5px solid black; /* bordure du bouton */
+  padding: 15px 32px; /* espacement intérieur */
+  text-align: center; /* alignement du texte */
+  font-size: 18px; /* taille de la police */
+  font-weight: bold; /* style de la police */
+  margin: 10px 10px; /* marge autour du bouton */
+  border-radius: 10px; /* 10: coins arrondis*/
+  box-shadow: 0 10px 15px green; /* 0: effet, ombre */
+  font-family: 'Times New Roman'; /* police de caractères */
+}
+
+table, th, td {
+    border: 1px solid black; /* bordure de la table */
+    border-collapse: collapse; /* bordures adjacentes des cellules */
+}
+th {
+    text-align: left;
+}
+
+caption {
+    caption-side: top; /* position du titre de la table */
+    font-size: 18px; /* taille de la police */
+    margin-bottom: 18px; /* marge en bas */
+    font-weight: bold; /* style de la police */
+    text-align: center; /* alignement du texte */
+    color: green; /* couleur du texte */
+}
+
+#myfooter {
+    background-color: lightblue; /* couleur de fond */
+    color: black; /* couleur du texte */
+    padding: 40px; /* espacement intérieur */
+    text-align: center; /* alignement du texte */
+}
+
+#myfooterJS:hover {/* Style lorsque l'élément "mysfooter" est survolé */
+    color: black; /* couleur du texte */
+}
+
+#button-myfooter {
+    display: block; /* afficher en tant que bloc pour occuper toute la largeur */
+    margin: 20px auto; /* centrer le bouton */
+    border: black; /* bordure du bouton */
+    cursor: pointer; /* curseur de la souris */
+    background-color: lightblue; /* couleur de fond */
+    color: black; /* couleur du texte */
+    border: 5px solid black; /* bordure du bouton */
+    padding: 15px 40px; /* espacement intérieur */
+    text-align: center; /* alignement du texte */
+    font-size: 22px; /* taille de la police */
+    font-weight: bold; /* style de la police */
+    font-family: 'Times New Roman'; /* police de caractères */
+}
+
+#button-myfooter:hover {
+    background-color: green; /* couleur de fond au survol */
+}
+
+#iframe_ENSIBS {
+    border: 2px solid black; /* bordure de l'iframe */
+    border-radius: 5px; /* coins arrondis */
+}
+
+.containermedia {
+    width: 80%; /* largeur de la boîte */
+    margin: auto; /* centrer le contenu horizontalement */
+}
+
+.video-container {
+    display: flex; /* utiliser le modèle de boîte flexible */
+    justify-content: space-around; /* espacement entre les éléments */
+    align-items: center; /* aligner les éléments au centre */
+    margin-top: 20px; /* marge en haut */
+}
+
+.video{
+    flex: 1; /* chaque vidéo occupera un espace égal */
+    margin: 10px; /* marge autour de chaque vidéo */
+}
+
+iframe {
+    width: 100%; /* largeur de l'iframe */
+    height: 350px; /* hauteur de l'iframe */
+}
+
+
+.container_informations {
+    width: 80%; /* largeur de la boîte */
+    margin: auto; /* centrer le contenu horizontalement */
+}
+
+/*Style pour l'iframe*/
+#iframe_ENSIBS {
+    border: 2px solid black; /* bordure de l'iframe */
+    border-radius: 5px; /* coins arrondis */
+}
+
+#Iframe_ENSIBS_a {
+    color: #1980b9; /* couleur du texte des liens*/
+    text-decoration: none; /* pas de soulignement */
+    font-weight: bold; /* Texte en gras */
+}
+
+#Iframe_ENSIBS_a:hover {
+    color: green; /* couleur du texte au survol */
+    text-decoration: underline; /* soulignement au survol */
+}
+
+header, footer {
+    background-color: green; /* couleur de fond */
+    color: white; /* couleur du texte */
+    padding: 20px; /* espacement intérieur */
+    text-align: center; /* alignement du texte */
+}
+
+header {
+    font-size: 16px;
+}
+
+.container {
+    flex: 1; /* chaque élément occupera un espace égal */
+    display: grid; /* utiliser le modèle de boîte flexible */
+    width: 80%; /* largeur de la boîte */
+    margin: 0; /* centrer le contenu horizontalement */
+}
+
+nav, article {
+    padding: 20px; /* espacement intérieur */
+}
+
+nav {
+    background-color: whitesmoke; /* couleur de fond */
+    flex: 1; /* chaque élément occupera un espace égal */
+    font-size: 18px; /* taille de la police */
+}
+
+nav ul {
+    list-style-type: none; /* pas de puces */
+    padding: 0; /* pas de marge */
+}
+
+nav ul li {
+    flex: 1; /* chaque élément occupera un espace égal */
+}
+
+nav ul li a {
+    color: black; /* couleur du texte */
+    font-size: 18px; /* taille de la police */
+    padding: 10px; /* espacement intérieur */
+    border: 1px solid black; /* bordure */
+    border-radius: 5px; /* coins arrondis */
+    text-align: center; /* alignement du texte */
+    width: 100%; /* largeur de l'élément */
+    box-sizing: border-box; /* inclure la bordure dans la largeur totale */
+}
+
+nav ul li a:hover {
+    background-color: green; /* couleur de fond au survol */
+    color: white; /* couleur du texte au survol */
+}
+
+.btn {
+    display: inline-block; /* afficher en tant que bloc en ligne */
+    padding: 15px 25px; /* espacement intérieur */
+    margin: 5px 0; /* marge autour du bouton */
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    border-radius: 5px; /* coins arrondis */
+    text-decoration: none; /* pas de soulignement */
+}
+
+.btn:hover {
+    background-color: #003300; /* couleur de fond au survol */
+}
+
+@media (min-width: 600px) { /* pour les écrans de 600px ou plus */
+    .container {
+        grid-template-columns: 30% 80%; /* deux colonnes : 20% pour la navigation, 80% pour l'article */
+        grid-row: none; /* pas de lignes */
+    }
+    nav {
+        order: 1; /* ordre de la navigation */
+    }
+    article {
+        order: 2; /* ordre de l'article */
+    }
+}
+
+html,body {
+    height: 100%; /* hauteur de la page */
+    margin: 0; /* pas de marge */
+    padding: 0; /* pas d'espacement intérieur */
+}
+
+body {
+    font-family: Arial; /* police de caractères */
+    display: flex; /* utiliser le modèle de boîte flexible */
+    flex-direction: column; /* direction de la boîte flexible */
+    background-color: white; /* couleur de fond */
+}
+
+.header, .footer {
+    background-color: blue; /* couleur de fond */
+    color: white; /* couleur du texte */
+    padding: 20px; /* espacement intérieur */
+    text-align: center; /* alignement du texte */
+}
+
+.container3 {
+    display: flex; /* utiliser le modèle de boîte flexible */
+    flex: 2; /* chaque élément occupera un espace égal */
+    margin: 20px; /* marge autour de la boîte */
+    border-radius: 8px; /* coins arrondis */
+    background-color: white; /* couleur de fond */
+}
+
+.menu, .main, .right {
+  padding: 20px; /* espacement intérieur */
+}
+ 
+.menu {
+  width: 25%; /* largeur de la section */
+  background-color: #1980b9; /* couleur de fond */
+}
+ 
+/* Quand on met a, c'est les lien qui vont prendre le style ----------------------------------------------------------------*/  
+.menu a {
+  display: block; /* affichage en bloc */
+  padding: 10px; /* espacement intérieur */
+  margin: 5px 0; /* marge */
+  text-decoration: none; /* pas de soulignement */
+  color: white; /* couleur de la police */
+  background-color: blue; /* couleur de fond */
+}
+ 
+.menu a:hover {
+  background-color: blue; /* couleur de fond au survol */
+}
+
+.main {
+  width: 50%; /* largeur de la section */
+  padding: 0 20px; /* espacement intérieur */
+}
+.right {
+  width: 25%; /* largeur de la section */
+  background-color: whitesmoke; /* couleur de fond */
+  border-bottom: 1 px solid white; /* bordure en bas */
+}
+
+h2 {
+  color: #2a9df4; /* couleur de la police */
+  margin: 10px; /* marge */
+}
+
+p {
+  line-height: 1.6; /* hauteur de ligne */
+}
+
+@media (max-width: 600px) { /* pour les écrans de 600px ou moins */
+    .container3 {
+        flex-direction: column; /* direction de la boîte flexible */
+    }
+    .menu, .main, .right {
+        width: 100%; /* largeur de la section */
+        padding: 15px 0; /* espacement intérieur */
+        border-radius: 0; /* pas de coins arrondis */
+    }
+    .menu {
+        border-right: none; /* pas de bordure à droite */
+        border-bottom: 1px solid white; /* bordure en bas */
+    }
+    .right {
+        border-right: none; /* pas de bordure à droite */
+        border-top: 1px solid white; /* bordure en haut */
+    }
+}
+
+body {
+    font-family: Arial;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styles pour le formulaire */
+form {
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+/* Styles pour les labels */
+label {
+    display: block;/* Définir l'élément comme un bloc*/
+    margin-bottom: 8px;/*  espace de 8 pixels en bas de l'élément */
+    font-weight: bold;
+    color: black;
+}
+
+
+    /* Styles pour les champs de texte et autres éléments de formulaire */
+    /* Appliquer les styles aux champs de texte, email, date, select et textarea */
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    select,
+    textarea {
+    width: calc(100% - 20px);/* la largeur: 100%  moins 20 pixels */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+
+/* Styles pour les boutons radio et les cases à cocher */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;/*marge à droite des boutons radio et des cases à cocher */
+}
+/* styles aux étiquettes  après les boutons radio et les cases à cocher */
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    display: inline-block;/*texte aligné avec le bouton*/
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+/* Styles pour le bouton de soumission */
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+
+
+
+
+
+/*mon site*/
+
+

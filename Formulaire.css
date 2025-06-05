@@ -1,0 +1,93 @@
+/* Styles pour le formulaire */
+        form {
+        background-color: white;
+        padding: 20px;
+        max-width: 600px;
+        margin: auto;
+        }
+
+        /* Styles pour les labels */
+        label {
+        display: block;/* Définir l'élément comme un bloc*/
+        margin-bottom: 8px;/*  espace de 8 pixels en bas de l'élément */
+        font-weight: bold;
+        color: black;
+        }
+
+
+        /* Styles pour les champs de texte et autres éléments de formulaire */
+        /* Appliquer les styles aux champs de texte, email, date, select et textarea */
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        select,
+        textarea {
+        width: calc(100% - 20px);/* la largeur: 100%  moins 20 pixels */
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        font-size: 16px;
+        }
+
+        /* Styles pour le bouton de soumission */
+        input[type="submit"] {
+        background-color: green;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        }
+
+        body {
+        font-family: Arial;
+        background-color: whitesmoke;
+        padding: 20px;
+        }
+
+        h1 {
+        text-align: center;
+        color: #333;
+        }
+
+        .btn-contact {
+            display: inline-block;
+            margin: 10px;
+            background-color: #0072b1; /* LinkedIn */
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn-retour {
+            background-color: #555; /* Gris pour retour */
+        }
+
+        .btn-retour:hover {
+            background-color: #333;
+        }
+        
+        .btn-envoyer {
+            background-color: #0b9304; /* Gris pour retour */
+        }
+
+        .btn-envoyer:hover {
+            background-color: #03700c;
+        }
+
+        footer {
+        background-color: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        }
